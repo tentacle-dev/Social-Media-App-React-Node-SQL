@@ -1,0 +1,84 @@
+.login{
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card{
+        width: 50%s;
+        display: flex;
+        background-color: aliceblue;
+        border-radius: 10px;
+        min-height: 500px;
+        max-width: 750px;
+        overflow: hidden;
+        
+        .left{
+            flex: 1;
+            background: rgb(2,0,36);
+            background:linear-gradient(198deg, rgba(255,255,255,1) 0%, rgba(37,156,65,0.2248249641653537) 48%, rgba(161,11,230,1) 100%),url("../../public/images/pexels-ekaterina-bolovtsova-7658575.jpg") center;
+            background-size: cover ;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+            h1{
+                font-size: 100px;
+                line-height: 80px;                
+
+            }
+            p{
+
+            }
+            span{
+                font-size: 14px;
+
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background: white;
+                color: purple;
+                font-family: monospace;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            h1{
+               color: #555; 
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+            }
+            input{
+                border: none;
+                border-bottom: 1px solid lightgrey ;
+                padding: 20px 10px;
+            }
+            button{
+               width: 50%; 
+               padding: 10px;
+               border: none;
+               background-color: purple;
+               color: whitesmoke;
+               font-weight: bold;
+               cursor: pointer;
+            }
+
+        }
+    }
+}
